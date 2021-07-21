@@ -1,5 +1,4 @@
 # UniversityProjects
-g">
 
 <h2> Hey there! I'm Akash.</h2>
 
