@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Akash Kakran</title>
+    <style>
+       
+    </style>
+  </head>
+  <body>
+      <!-- Actually we should not use br tag bcz it is not a good practice but in these 
+    i am using br to make code simple -->
+    <h1>Resume</h1>
+    <div class="biodata">
+    <form>
+    <fieldset class="clr">
+      <legend>Personal Information</legend>
+      <label for="firstname">FirstName: </label>
+      <input type="text" name="Frstname" id="firstname" placeholder="First Name" required />
+
+      <label for="lastname">LastName: </label>
+      <input type="text" name="Lstname" id="lastname" placeholder="Last Name" />
+      <br /><br />
+
+      <label>Gender: </label>
+
+      <label for="male" id="mrgn"> Male: </label>
+      <input type="radio" name="gend" id="male" required />
+
+      <label for="female">Female: </label>
+      <input type="radio" name="gend" id="female" />
+
+      <label for="other">Others: </label>
+      <input type="radio" name="gend" id="other" />
+
+      <br />
+      <br />
+      <label for="birthday">Date of Birth: </label>
+      <input type="date" name="brth" id="birthday" />
+
+      <br /><br />
+      <label for="mail">E-Mail: </label>
+      <input type="email" name="mal"id="mail" placeholder="Enter Your Email" required/>
+      <br />
+      <br />
+      <label for="phone">Phone: </label>
+      <input type="tel" name="no" id="phone" placeholder="+91" maxlength="10" />
+      <br /><br />
+      <label for="height">Height: </label>
+      <input type="text" name="hgt" id="height" placeholder="Height in feet" />
+    </fieldset>
+<br>
+    <fieldset class="clr">
+        <legend>Education</legend>
+
+        <label for="sch">School Name: </label>
+        <input type="text" name="school" id="sch" placeholder="School Name"/>
+<br><br>
+        <label for="cls">Class: </label>
+        <input type="text" name="class" id="cls" placeholder="Enter Class"/>
+<br><br>
+        <label for="str">Stream: </label>
+        <select name="stream" id="str" >
+            <option value="cse">Cse</option>
+            <option value="ee">EE</option>
+            <option value="me">ME</option>
+        </select>
+<br><br>
+        <label for="mrks">Marksheet: </label>
+        <input type="file" name="sheet" id="mrks" />
+
+    </fieldset>
+<br>
+<button type="submit" >Submit</button>
+</form>
+</div>
+<hr>
+<h1 >Time Table</h1>
+    <div class="container">
+
+        <table cellspacing="5px">
+            <tbody>
+            <tr>
+                <th>Days/Periods</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td></td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td rowspan="6">Break</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Wed</th>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="3">Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Thu</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr class="tp">
+                <th >Fri</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Sat</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <td colspan="8" style="text-align: center;">This is class VIII</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+  </body>
+</html>
